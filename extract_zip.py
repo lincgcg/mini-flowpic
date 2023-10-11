@@ -2,7 +2,7 @@ import logging
 from pathlib import Path
 import zipfile
 
-DATA_FOLDER_PATH = Path('data')
+DATA_FOLDER_PATH = Path('/root/mini-flowpic/data')
 DS_ZIP_FILENMAE = Path('ucdavis_quic.zip')
 DS_PATH = DATA_FOLDER_PATH / DS_ZIP_FILENMAE.stem
 DS_ZIP_PATH = DATA_FOLDER_PATH / DS_ZIP_FILENMAE
